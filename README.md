@@ -45,11 +45,11 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 ## Connect to VMs
 
-2. **Using RDP Client on your local machine for labvm:**
+1. **Using RDP Client on your local machine for labvm:**
 
     1.	Using the RDP Client, Login in to the Lab VM using environment credentials you received.
 
-1. **Using SSH Client on your local machine for jenkins vm** 
+2. **Using SSH Client on your local machine for jenkins vm** 
  
    * **If you are using Git Bash**
   
@@ -84,7 +84,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
  ## Known Issues
  
- In Exercise 3>Task 3>Step 10:For building the docker image, Oprn a bash shell and run the command **sudo su -**. You have to run the command **visudo**.Add demouser configuration  in file.Run the **exit** command.After that you have to reset your VM and build the image.
+ In Exercise 3>Task 3>Step 10:For building the docker image, Oprn a bash shell and run the command **sudo su -**. You have to run the command **visudo**.Add demouser configuration  in file.Run the **exit** command.After that you have to restart your VM and build the image.
     
 ## Notes to Instructors / Proctors
 
